@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+        <!--  links start  -->
+        <link rel="shortcut icon" href="" type="image/x-icon" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <link rel="stylesheet" href="/style/profile.css">
+        <!--  links end  -->
+
+
+</head>
+<body>
+
+<div class="container">
+    <div class="wrapper">
+        <header> 
+            <div class="header__wrapper">
+                <div class="logo"> <a href="/html/index.html">MINE</a></div> 
+
+
+                    <div class="profile__wrapper openModal">
+                        <div class="profile__nameWrapper"> </div> 
+                        <div class="profile-imgWrapper">
+                            <img src="/src/Screenshot 2026-03-11 at 12.01.35 am.png" alt="img" class="profile-img">
+                        </div>
+                    </div> 
+
+
+            </div>
+        </header>
+    </div>
+</div>
+
+
+<div id="myModal" class="Modal">
+    <div class="Modal-content">
+    <span class="close">&times;</span>
+
+        <div class="Modal__info-wrapper">
+
+            <div class="mModal modal__name">
+                <p class="text__modal modal__name-text">name: </p>
+                <p class="modal__name-result"> ${localStorage.getItem('name')} </p>
+            </div>
+            <!-- <hr> -->
+            <div class="mModal modal__email">
+                <p class="text__modal modal__email-text">email: </p>
+                <p class="modal__email-result"> ${localStorage.getItem('email')} </p>
+            </div>
+            <!-- <hr> -->
+            <div class="mModal modal__password">
+                <p class="text__modal modal__password-text">password: </p>
+                <p class="modal__password-result"> ${localStorage.getItem('password')} </p>
+            </div>
+            <!-- <hr> -->
+        </div>
+
+        <div class="btN__wrapper">
+            <button class="btN exit"> akaunt o'chirish</button>
+            <button class="btN log-out">log out</button>
+        </div>
+    </div>
+</div>
+
+    <script src="/javaScript/profile.js"></script>
+</body>
+</html>

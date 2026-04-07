@@ -1,0 +1,140 @@
+*{
+    bottom: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    width: max-content;
+    background-color: #fff;
+}
+body{
+    background-image: url("/src/summer-forest-3840x2160-5k-4k-wallpaper-green-trees-leaves-grass-582.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #041e05;
+    font-family: sans-serif;
+    background-size: cover;
+    height: 100vh;
+}
+.wrapper{
+    padding: 20px;
+    background: #0000001d;
+    backdrop-filter: blur(8px);
+    width: 60%;
+    height: 94.5vh;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    transform: translate(700px, 0);
+    box-shadow: rgba(1, 21, 2, 0.42) 3px 3px 16px 0px , rgba(1, 21, 2, 0.417) -3px -3px 16px 1px ;
+}
+.wr2{
+    padding: 20px;
+    background: #0000001d;
+    backdrop-filter: blur(8px);
+    width: 60%;
+    height: 94vh;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: rgba(1, 21, 2, 0.42) 3px 3px 16px 0px , rgba(1, 21, 2, 0.417) -3px -3px 16px 1px ;
+}
+.container{
+    max-width: 1440px;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.container2{
+    max-width: 1440px;
+    height: 100vh;
+    transform: translate(0, -40px);
+    margin: 0 auto;
+    overflow: hidden;
+}
+.title{
+    color: rgba(255, 255, 255, 0.905);
+    font-weight: 900;
+    transform: translate(-13px, 20px);
+    position: absolute;
+    top: 9%;
+    left: 30%;
+    font-size: 70px;
+    letter-spacing: 2px;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.title2{
+    color: rgba(255, 255, 255, 0.905);
+    font-weight: 900;
+    /* transform: translate(0, 13px); */
+    position: absolute;
+    top: 6rem;
+    left: 30%;
+    font-size: 70px;
+    letter-spacing: 2px;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.exta__title{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 13%;
+    left: 27%;
+    letter-spacing: 2px;
+    color: #ffffffdb;
+    /* background: white; */
+}
+form{
+    flex-shrink: 2;
+    flex-direction: column;
+    display: grid;
+    max-width: 400px;
+    margin:  0 auto;
+    gap: 9px;
+    transform: translate(0, 150%);
+}
+.form2{
+    transform: translate(0, 22rem);
+}
+input{
+    padding: 8px 12px;
+    /* border-radius: 9px; */
+    border-style: none;
+    width: 300px;
+    background: inherit;
+    color: azure;
+    border-bottom: 1px solid white;
+
+}
+button{
+    padding: 8px 12px;
+    border-radius: 9px;
+    border-style: none;
+    width: 300px;
+    margin-top: 12px;
+    background: #000;
+    color: white;
+}
+input::placeholder{
+    color: azure;
+}
+input:focus{
+    border: 2px solid rgb(65, 174, 125);
+    border-style: none;
+    border: none;
+}
+.error{
+    color: rgb(215, 231, 69);
+    height: 14px;
+}

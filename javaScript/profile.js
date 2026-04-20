@@ -5,7 +5,6 @@ profile__nameWrapper.innerHTML =
                 <p class="profile-name"> ${localStorage.getItem('name')} </p>
                 <span><p class="profile-email"> ${localStorage.getItem('email')} </p> </span>
                 `
-
 let openModal = document.querySelector('.openModal')
 let Modal = document.querySelector('.Modal')
 let close = document.querySelector('.close')
@@ -41,7 +40,6 @@ Modal__info.innerHTML =
             </div>
             <!-- <hr> -->
                     `
-
 
 // ==============================================================================================
 //  modalga qo'shimcha

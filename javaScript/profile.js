@@ -11,13 +11,6 @@ let Modal = document.querySelector('.Modal')
 let close = document.querySelector('.close')
 let Modal__info = document.querySelector('.Modal__info-wrapper')
 
-// openModal.addEventListener('click', ()=>{
-//     Modal.classList.toggle('display')
-// })
-// close.addEventListener('click', ()=>{
-//     Modal.classList.remove('display')
-// })
-
 openModal.onclick = () =>{
     Modal.style.display = 'block'
 }

@@ -1,6 +1,7 @@
 // =====================================================================
 //    second page
 // ---------------------------------------------------------------------
+
 let second_emailInp = document.querySelector('.second-emailInp')
 let second_passwordInp = document.querySelector('.second-passwordInp')
 let form2 = document.querySelector('.form2')
@@ -17,4 +18,3 @@ let form2 = document.querySelector('.form2')
             console.log(false);
         }
     })
-
